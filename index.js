@@ -7,7 +7,7 @@ function nowServing(deliLine) {
 console.log(`Currently serving ${deliLine[0]}.`);
 deliLine.shift;
 if (deliLine.length = 0) {
-  return `There is nobody waiting to be served!`
+  console.log(`There is nobody waiting to be served!`)
 }
 }
 
