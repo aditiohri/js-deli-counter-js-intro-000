@@ -3,11 +3,10 @@ deliLine.push(name);
 return `Welcome, ${name}. You are number ${deliLine.length} in line.`
 }
 
-function nowServing(deliLine) {
-console.log(`Currently serving ${deliLine[0]}.`);
-deliLine.shift;
-if (!deliLine.length) {
-  console.log(`There is nobody waiting to be served!`)
+function nowServing(line) {
+return `Currently serving ${line.shift()}.`;
+if (!line.length) {
+return `There is nobody waiting to be served!`
 }
 }
 
