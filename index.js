@@ -1,5 +1,5 @@
-function takeANumber(line, name) {
-line.push(name);
+function takeANumber(deliLine, name) {
+deliLine.push(name);
 return `Welcome, ${name}. You are number ${deliLine.length} in line.`
 }
 
