@@ -10,6 +10,9 @@ return `There is nobody waiting to be served!`
   return `Currently serving ${line.shift()}.`;
 }
 
-function currentLine() {
+function currentLine(line) {
+if (!line.length) {
+  return `The line is currently empty.`
+}
 
 }
